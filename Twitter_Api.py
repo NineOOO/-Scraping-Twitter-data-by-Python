@@ -51,6 +51,6 @@ covid19 = search_tweets('en', '#COVID19', '2020-01-01', 2000)
 
 
 # Export Dataframe to Excel file
-covid19.to_excel(r'path\file_name.xlsxv', encoding='utf-8-sig', index = False)
+covid19.to_excel(r'path\file_name.xlsx', encoding='utf-8-sig', index = False)
 
 
